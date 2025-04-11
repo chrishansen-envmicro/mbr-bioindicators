@@ -1,0 +1,163 @@
+﻿cat,env_variable,replicate,r_squared,r_squared_orig,Ct <5 Unique Values
+Both,Elevation,1,,,
+Both,Elevation,2,,,
+Both,Elevation,3,,,
+Both,Temp,1,,,
+Both,Temp,2,,,
+Both,Temp,3,,,
+Both,DO,1,,,
+Both,DO,2,,,
+Both,DO,3,,,
+Both,SPC,1,,,
+Both,SPC,2,,,
+Both,SPC,3,,,
+Both,pH,1,,,
+Both,pH,2,,,
+Both,pH,3,,,
+Both,ORP,1,,,
+Both,ORP,2,,,
+Both,ORP,3,,,
+Both,CaCO3,1,,,
+Both,CaCO3,2,,,
+Both,CaCO3,3,,,
+Both,HCO3,1,,,
+Both,HCO3,2,,,
+Both,HCO3,3,,,
+Both,Ca,1,,,
+Both,Ca,2,,,
+Both,Ca,3,,,
+Both,Cl,1,,,
+Both,Cl,2,,,
+Both,Cl,3,,,
+Both,Mg,1,,,
+Both,Mg,2,,,
+Both,Mg,3,,,
+Both,K,1,,,
+Both,K,2,,,
+Both,K,3,,,
+Both,SiO2,1,,,
+Both,SiO2,2,,,
+Both,SiO2,3,,,
+Both,Na,1,,,
+Both,Na,2,,,
+Both,Na,3,,,
+Both,Sr,1,,,
+Both,Sr,2,,,
+Both,Sr,3,,,
+Both,SO4,1,,,
+Both,SO4,2,,,
+Both,SO4,3,,,
+Both,TDS,1,,,
+Both,TDS,2,,,
+Both,TDS,3,,,
+Both,fi,1,,,
+Both,fi,2,,,
+Both,fi,3,,,
+Mount Hood,Elevation,1,0.109878781,0.109878781,
+Mount Hood,Elevation,2,0.095030623,0.095030623,
+Mount Hood,Elevation,3,0.023979156,0.023979156,
+Mount Hood,Temp,1,0.747975701,0.747975701,
+Mount Hood,Temp,2,0.677376265,0.677376265,
+Mount Hood,Temp,3,0.745848696,0.745848696,
+Mount Hood,DO,1,0.851088633,0.851088633,
+Mount Hood,DO,2,0.681018476,0.681018476,
+Mount Hood,DO,3,0.673338079,0.673338079,
+Mount Hood,SPC,1,0.692402759,0.692402759,
+Mount Hood,SPC,2,0.432416112,0.432416112,
+Mount Hood,SPC,3,0.641553778,0.641553778,
+Mount Hood,pH,1,0.094420707,0.094420707,
+Mount Hood,pH,2,0.243250183,0.243250183,
+Mount Hood,pH,3,0.232733165,0.232733165,
+Mount Hood,ORP,1,0.089516444,0.089516444,
+Mount Hood,ORP,2,0.228490282,0.228490282,
+Mount Hood,ORP,3,0.240505431,0.240505431,
+Mount Hood,CaCO3,1,0.580835768,0.580835768,
+Mount Hood,CaCO3,2,0.682439491,0.682439491,
+Mount Hood,CaCO3,3,0.674816828,0.674816828,
+Mount Hood,HCO3,1,0.599850087,0.599850087,
+Mount Hood,HCO3,2,0.560254059,0.560254059,
+Mount Hood,HCO3,3,0.619573463,0.619573463,
+Mount Hood,Ca,1,0.64570476,0.64570476,
+Mount Hood,Ca,2,0.567911246,0.567911246,
+Mount Hood,Ca,3,0.693780474,0.693780474,
+Mount Hood,Cl,1,0.476751178,0.476751178,
+Mount Hood,Cl,2,0.604678909,0.604678909,
+Mount Hood,Cl,3,0.548692277,0.548692277,
+Mount Hood,Mg,1,0.608739238,0.608739238,
+Mount Hood,Mg,2,0.753339222,0.753339222,
+Mount Hood,Mg,3,0.434683443,0.434683443,
+Mount Hood,K,1,0.561229733,0.561229733,
+Mount Hood,K,2,0.224968376,0.224968376,
+Mount Hood,K,3,0.746539998,0.746539998,
+Mount Hood,SiO2,1,0.652045265,0.652045265,
+Mount Hood,SiO2,2,0.7091667,0.7091667,
+Mount Hood,SiO2,3,0.620141089,0.620141089,
+Mount Hood,Na,1,0.746548942,0.746548942,
+Mount Hood,Na,2,0.375402193,0.375402193,
+Mount Hood,Na,3,0.755978305,0.755978305,
+Mount Hood,Sr,1,0.581432667,0.581432667,
+Mount Hood,Sr,2,0.458273876,0.458273876,
+Mount Hood,Sr,3,0.543357128,0.543357128,
+Mount Hood,SO4,1,0.780625158,0.780625158,
+Mount Hood,SO4,2,0.772964608,0.772964608,
+Mount Hood,SO4,3,0.73406439,0.73406439,
+Mount Hood,TDS,1,0.650111818,0.650111818,
+Mount Hood,TDS,2,0.636399861,0.636399861,
+Mount Hood,TDS,3,0.674800896,0.674800896,
+Mount Hood,fi,1,0.439550043,0.439550043,
+Mount Hood,fi,2,0.152328276,0.152328276,
+Mount Hood,fi,3,0.40754288,0.40754288,
+Glacier National Park,Elevation,1,0.035749862,0.035749862,6
+Glacier National Park,Elevation,2,0.048315553,0.048315553,3
+Glacier National Park,Elevation,3,0.057027631,0.057027631,9
+Glacier National Park,Temp,1,0.445628975,0.445628975,3
+Glacier National Park,Temp,2,0.363633039,0.363633039,3
+Glacier National Park,Temp,3,0.396332937,0.396332937,3
+Glacier National Park,DO,1,0.060153836,0.060153836,6
+Glacier National Park,DO,2,0.049307813,0.049307813,
+Glacier National Park,DO,3,0.038634723,0.038634723,3
+Glacier National Park,SPC,1,0.381256314,0.381256314,3
+Glacier National Park,SPC,2,0.42615978,0.42615978,
+Glacier National Park,SPC,3,0.295330429,0.295330429,6
+Glacier National Park,pH,1,0.096208982,0.096208982,12
+Glacier National Park,pH,2,0.007313792,0.007313792,12
+Glacier National Park,pH,3,2.66561E-05,2.66561E-05,18
+Glacier National Park,ORP,1,0.005079515,0.005079515,3
+Glacier National Park,ORP,2,0.016705198,0.016705198,6
+Glacier National Park,ORP,3,0.013229133,0.013229133,4
+Glacier National Park,CaCO3,1,0.265857039,0.265857039,33
+Glacier National Park,CaCO3,2,0.200169908,0.200169908,12
+Glacier National Park,CaCO3,3,0.262897369,0.262897369,6
+Glacier National Park,HCO3,1,0.333538095,0.333538095,3
+Glacier National Park,HCO3,2,0.253873849,0.253873849,3
+Glacier National Park,HCO3,3,0.551539956,0.551539956,6
+Glacier National Park,Ca,1,0.317115535,0.317115535,15
+Glacier National Park,Ca,2,0.476707362,0.476707362,6
+Glacier National Park,Ca,3,0.388819255,0.388819255,15
+Glacier National Park,Cl,1,0.008196789,0.008196789,
+Glacier National Park,Cl,2,0.013037796,0.013037796,3
+Glacier National Park,Cl,3,0.007585606,0.007585606,6
+Glacier National Park,Mg,1,0.200564026,0.200564026,
+Glacier National Park,Mg,2,0.056920535,0.056920535,
+Glacier National Park,Mg,3,0.057941634,0.057941634,16
+Glacier National Park,K,1,0.071351977,0.071351977,50
+Glacier National Park,K,2,0.059936451,0.059936451,50
+Glacier National Park,K,3,0.034557447,0.034557447,50
+Glacier National Park,SiO2,1,0.071053773,0.071053773,
+Glacier National Park,SiO2,2,0.100249809,0.100249809,12
+Glacier National Park,SiO2,3,0.111521783,0.111521783,3
+Glacier National Park,Na,1,0.208665212,0.208665212,21
+Glacier National Park,Na,2,0.222546392,0.222546392,18
+Glacier National Park,Na,3,0.116120842,0.116120842,15
+Glacier National Park,Sr,1,0.066576318,0.066576318,33
+Glacier National Park,Sr,2,0.024364033,0.024364033,15
+Glacier National Park,Sr,3,0.01665393,0.01665393,21
+Glacier National Park,SO4,1,0.123511663,0.123511663,9
+Glacier National Park,SO4,2,0.154588548,0.154588548,9
+Glacier National Park,SO4,3,0.047622904,0.047622904,
+Glacier National Park,TDS,1,0.379090979,0.379090979,
+Glacier National Park,TDS,2,0.356085633,0.356085633,18
+Glacier National Park,TDS,3,0.38799073,0.38799073,3
+Glacier National Park,fi,1,0.215936849,0.215936849,15
+Glacier National Park,fi,2,0.2610486,0.2610486,6
+Glacier National Park,fi,3,0.16269106,0.16269106,12
