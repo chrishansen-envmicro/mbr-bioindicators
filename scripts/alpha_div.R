@@ -12,7 +12,7 @@ library(ggtext)
 library(broom)
 
 
-# references
+# reference(s)
 # Miller, J. B., Frisbee, M. D., Hamilton, T. L., & Murugapiran, S. K. (2021). 
 # Recharge from glacial meltwater is critical for alpine springs and their microbiomes. 
 # Environmental Research Letters, 16(6), 64012-. https://doi.org/10.1088/1748-9326/abf06b 
@@ -113,6 +113,15 @@ autoplot(alpha_lm_shan) # deviates from normal, heteroscedasticity --> wilcox ra
 t.test(Observed ~ location, data = alphadiv_form, var.equal = TRUE)
 wilcox.test(Shannon ~ location, data = alphadiv_form)
 
+# visualizing mean differences for metrics and sd differences
+alphadiv_form %>%
+  group_by(location) %>%
+  summarize(sd_shann = sd(Shannon),
+            mean_shann = mean(Shannon),
+            sd_obs = sd(Observed),
+            mean_obs = mean(Observed))
+
+
 # summarize standard deviation
 alphadiv_form %>%
   group_by(location) %>%
@@ -131,6 +140,15 @@ p <- plot_richness(data_filt_rarified, x="location",
 
 p$layers <- p$layers[-1]
 
+# test comparisons if removing replicates
+data_filt_rarified_noreps <- subset_samples(data_filt_rarified,
+                                            bio_rep != 2 & bio_rep != 3)
+p <- plot_richness(data_filt_rarified, x="location", 
+                        measures=c("Observed", "Shannon"),
+                        color = "location") 
+
+p$layers <- p$layers[-1]
+
 # add aesthetics
 p +
   geom_jitter(aes(shape = location), width = 0.2, size = 5, alpha = 0.8, show.legend = FALSE)+
@@ -139,7 +157,7 @@ p +
   stat_compare_means(method = "wilcox.test", comparisons = my_comparisons,
                      label = "p.signif", symnum.args = symnum.args) +
   scale_color_manual(values=wes_palette("Moonrise2")) +
-  geom_boxplot(alpha = 0.7) +
+  geom_boxplot(alpha = 0.7, col = "black") +
   scale_x_discrete(element_blank()) +
   theme_light() +
   theme(legend.position = "none",
@@ -192,6 +210,86 @@ b <- ggplot(data = palphadt_obs,
 
 plot_grid(b, a, labels = "auto", label_size = 20)
 
+
+
+
+##### test comparisons if removing replicates $#####
+
+# export alphadiversity files to manually average across 10 sites with replicates
+write.csv(palphadt_shan, "shan_reps_test.csv")
+write.csv(palphadt_obs, "obs_reps_test.csv")
+
+# import an averaged dataset
+shan_avg <- read.csv("shan_reps_test_avg.csv")
+obs_avg <- read.csv("obs_reps_test_avg.csv")
+
+# test the hypotheses that mean alpha diversity metrics differ between sites - For replicates
+t.test(value ~ location, data = obs_avg, var.equal = TRUE) # for richness
+wilcox.test(value ~ location, data = shan_avg) # for shannon diversity
+
+# visualizing mean differences for metrics and sd differences
+obs_avg %>% # for richness
+  group_by(location) %>%
+  summarize(sd = sd(value),
+            mean = mean(value))
+
+shan_avg %>% # for Shannon
+  group_by(location) %>%
+  summarize(sd = sd(value),
+            mean = mean(value))
+  
+alphadt_shan_reps <- palphadt_shan %>% # selecting sites with replicates
+  filter(sample_name == "Buzzard Fountain Spring" |
+           sample_name == "Choss Seep" |
+           sample_name == "Grinnell Spring" |
+           sample_name == "James Spring" |
+           sample_name == "Lunch Creek Spring" |
+           sample_name == "Mineral Creek Tributary" |
+           sample_name == "Palmer B Spring" |
+           sample_name == "Paradise Park Spring" |
+           sample_name == "Piegan North Spring" |
+           sample_name == "Piegan Spring")
+
+# visualize shannon diversity differences between sites with multiple replicates
+alphadt_shan_reps %>%
+  ggplot(aes(x = bio_rep, y = value)) +
+  #geom_boxplot(outlier.shape  = NA) +
+  geom_point(aes(color = sample_name), size = 5, alpha = 0.9, height = 0, width = .2) +
+  #scale_color_manual(values = CPCOLS) +
+  labs(x = "", y = "Shannon's Diversity", color = "Sample Site") +
+  scale_y_continuous(limits = c(0,8)) +
+  facet_wrap(~ sample_name) +
+  theme_light()
+
+# visualize OTU richness differences between sites with multiple replicates
+alphadt_obs_reps <- palphadt_obs %>%
+  filter(sample_name == "Buzzard Fountain Spring" |
+           sample_name == "Choss Seep" |
+           sample_name == "Grinnell Spring" |
+           sample_name == "James Spring" |
+           sample_name == "Lunch Creek Spring" |
+           sample_name == "Mineral Creek Tributary" |
+           sample_name == "Palmer B Spring" |
+           sample_name == "Paradise Park Spring" |
+           sample_name == "Piegan North Spring" |
+           sample_name == "Piegan Spring")
+
+
+alphadt_obs_reps %>%
+  ggplot(aes(x = bio_rep, y = value)) +
+  #geom_boxplot(outlier.shape  = NA) +
+  geom_point(aes(color = sample_name), size = 5, alpha = 0.9, height = 0, width = .2) +
+  #scale_color_manual(values = CPCOLS) +
+  labs(x = "", y = "Shannon's Diversity", color = "Sample Site") +
+  #scale_y_continuous(limits = c(0,8)) +
+  facet_wrap(~ sample_name) +
+  theme_light()
+
+
+#compare 
+
+####### End replicate testing ######
+
 ## extract data for hypothesis testing
 # separate by location and diversity metric
 palphadt_shan_mh <- filter(palphadt_shan, location == "Mount Hood")
@@ -220,6 +318,10 @@ cor.test(x = palphadt_obs_mh %>% pull(fi_best),
 cor.test(x = palphadt_obs_gnp %>% pull(fi_best),
          y = palphadt_obs_gnp %>% pull(value)) %>%
   tidy()
+
+palphadt_obs %>%
+  summarise(mh_range = )
+browseVignettes("DESeq2")
 
 # test whether mean fi differs between regions
 t.test(fi_best ~ location, data = palphadt_obs)

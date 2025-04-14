@@ -8,7 +8,7 @@ library(GGally)
 library(ggbiplot)
 library(wesanderson)
 
-setwd("/Users/chrishansen/Desktop/hydro/hydro_git/data")
+setwd("/Users/chrishansen/Desktop/hydro/alpine_hydro/data")
 dat <- "Master_Data_Sheet_11112021_consolidated.csv"
 
 # Import metadata
@@ -65,6 +65,10 @@ data_env <- select(data_filt, elevation_m, ysi_temp, ysi_do, ysi_spc,
 
 # Assess normality of pairwise environmental variables
 ggpairs(data_env)
+
+data_loc %>%
+  group_by(location) %>%
+  summarise(n = n())
 
 # Remove multicollinearity across samples (R^2 >= 0.9; expections noted in Methods)
 # Grp 1: CaCO3, HCO3, Mg, Ca, SPC

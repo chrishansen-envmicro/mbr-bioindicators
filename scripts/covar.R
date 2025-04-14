@@ -358,7 +358,7 @@ cov_data_order <- cov_data %>% # reorder variables to reflect an increasing mean
                                     .desc = TRUE))
 # plot
 ggplot(cov_data_order, aes(x = env_variable, y = r_squared, color = cat, shape = cat)) +
-  geom_jitter(alpha = 0.4, width = 0.1, size = 5, show.legend = FALSE) +
+  geom_jitter(alpha = 0.7, width = 0.1, size = 5, show.legend = FALSE) +
   scale_color_manual(values = wes_palette("Moonrise2")) +
   geom_hline(yintercept = summarise(cov_mh, 
                                     mean(r_squared_orig, na.rm = TRUE)) %>% pull(), 
