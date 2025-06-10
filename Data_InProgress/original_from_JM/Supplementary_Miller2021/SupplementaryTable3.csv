@@ -1,0 +1,89 @@
+Sample Number,Site Name,NCBI Accession,NCBI Sample Name,NCBI Sample Title,Date (mm/dd/yy),Site,Sample Type,UTM Zone,UTM Easting (m),UTM Northing (m),Elevation m.a.s.l. (m)
+1,Bell Spring,SAMN14814867,JM165_Bell_45,16S rRNA sequencing of MH and GNP glacial microbial communities: JM165_Bell_45,10/10/16,MH,SP,10T,617367,5010795,1260
+1,Bell Spring,SAMN14814868,JM169_Bell_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM169_Bell_20,10/10/16,MH,SP,10T,617367,5010795,1260
+2,Eliot Glacier Snow Algae,SAMN14814869,JM1618_Algae_45,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1618_Algae_45,10/9/16,MH,SA,10T,604035,5026613,2128
+2,Eliot Glacier Snow Algae,SAMN14814870,JM1620_Algae_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1620_Algae_20,10/9/16,MH,SA,10T,604035,5026613,2128
+2,Eliot Glacier Snow Algae,SAMN14814871,JM1628_Algae_45,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1628_Algae_45,10/9/16,MH,SA,10T,604035,5026613,2128
+2,Eliot Glacier Snow Algae,SAMN14814872,JM1621_Algae_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1621_Algae_20,10/9/16,MH,SA,10T,604035,5026613,2128
+3,Eliot Spring,SAMN14814873,JM1619_Eliot_Spring_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1619_Eliot_Spring_20,10/8/16,MH,SP,10T,604995,5027560,1921
+7,Camp Windy Spring,SAMN14814874,JM162_Camp_Windy_45,16S rRNA sequencing of MH and GNP glacial microbial communities: JM162_Camp_Windy_45,10/10/16,MH,SP,10T,611055,5016142,1667
+7,Camp Windy Spring,SAMN14814875,JM167_Camp_Windy_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM167_Camp_Windy_20,10/10/16,MH,SP,10T,611055,5016142,1667
+9,NF 3540 Spring,SAMN14814876,JM164_Near_NF_45,16S rRNA sequencing of MH and GNP glacial microbial communities: JM164_Near_NF_45,10/10/16,MH,SP,10T,609130,5017612,1341
+9,NF 3540 Spring,SAMN14814877,JM1613_Near_NF_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1613_Near_NF_20,10/10/16,MH,SP,10T,609130,5017612,1341
+10,Tilly Jane Spring,SAMN14814878,JM1610_Tilly_Jane_45_or_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1610_Tilly_Jane_45_or_20,10/8/16,MH,SP,10T,611039,5033234,821
+10,Tilly Jane Spring,SAMN14814879,JM1611_Tilly_Jane_45_or_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1611_Tilly_Jane_45_or_20,10/8/16,MH,SP,10T,611039,5033234,821
+11,Palmer B Spring,SAMN14814880,JM1614_Palmer_B_45,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1614_Palmer_B_45,10/9/16,MH,SP,10T,605784,5023068,1677
+11,Palmer B Spring,SAMN14814881,JM1625_Palmer_B_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1625_Palmer_B_20,10/9/16,MH,SP,10T,605784,5023068,1677
+12,Coe Stream,SAMN14814882,JM1616_Coe_20,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1616_Coe_20,10/9/16,MH,ST,10T,605396,5034210,911
+12,Coe Stream,SAMN14814883,JM1626_Coe_45,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1626_Coe_45,10/9/16,MH,ST,10T,605396,5034210,911
+13,Eliot Glacier Snowpack Algae,SAMN14814884,JM1780_Eliot_G_Snowpack_Algae,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1780_Eliot_G_Snowpack_Algae,7/28/17,MH,SA,10T,605047,5027128,1995
+14,Eliot Glacier Fresh Snow Upper,SAMN14814885,JM1771_Eliot_Glacier_Fresh_Snow,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1771_Eliot_Glacier_Fresh_Snow,7/22/17,MH,SN,10T,604140,5026611,2124
+17,Eliot Glacier Snowpack,SAMN14814886,JM1777_Eliot_G_Snowpack_Surface_Snow,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1777_Eliot_G_Snowpack_Surface_Snow,7/22/17,MH,SN,10T,605047,5027128,1995
+18,Bell Spring,SAMN14814887,JM172_Bell_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM172_Bell_Spring,7/26/17,MH,SP,10T,617367,5010795,1260
+18,Bell Spring,SAMN14814888,JM1716_Bell_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1716_Bell_Spring,7/26/17,MH,SP,10T,617367,5010795,1260
+19,Buzzard Fountain Spring,SAMN14814889,JM1717_Buzzard_Fountain,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1717_Buzzard_Fountain,7/26/17,MH,SP,10T,602483,5014601,1245
+19,Buzzard Fountain Spring,SAMN14814890,JM1776_Buzzard_Fountain,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1776_Buzzard_Fountain,7/26/17,MH,SP,10T,602483,5014601,1245
+20,Camp Creek Spring,SAMN14814891,JM1733_Camp_Creek,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1733_Camp_Creek,7/27/17,MH,SP,10T,598937,5018636,1369
+21,Camp Windy Spring,SAMN14814892,JM171_Camp_Windy,16S rRNA sequencing of MH and GNP glacial microbial communities: JM171_Camp_Windy,7/24/17,MH,SP,10T,611057,5016148,1667
+22,Choss Seep,SAMN14814893,JM1726_Choss_Seep,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1726_Choss_Seep,7/26/17,MH,SP,10T,599257,5016522,1179
+22,Choss Seep,SAMN14814894,JM1785_Choss_Seep,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1785_Choss_Seep,7/26/17,MH,SP,10T,599257,5016522,1179
+23,Coe Spring B,SAMN14814895,JM1728_Coe_Spring_B,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1728_Coe_Spring_B,7/26/17,MH,SP,10T,605330,5034092,939
+24,Coe Spring Run,SAMN14814896,JM1710_Coe_Spring_Run,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1710_Coe_Spring_Run,7/26/17,MH,ST,10T,604910,5033138,998
+28,James Spring,SAMN14814897,JM1722_James_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1722_James_Spring,7/25/17,MH,SP,10T,583021,5021260,548
+28,James Spring,SAMN14814898,JM1766_James_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1766_James_Spring,7/25/17,MH,SP,10T,583021,5021260,548
+29,Lolo Spring,SAMN14814899,JM1724_Lolo_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1724_Lolo_Spring,7/25/17,MH,SP,10T,597324,5038218,687
+30,Lookout Spring,SAMN14814900,JM1732_Lookout_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1732_Lookout_Spring,7/24/17,MH,SP,10T,614750,5021952,1680
+33,Palmer B Spring,SAMN14814901,JM1719_Palmer_B,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1719_Palmer_B,7/23/17,MH,SP,10T,605791,5023065,1677
+33,Palmer B Spring,SAMN14814902,JM1756_Palmer_B,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1756_Palmer_B,7/23/17,MH,SP,10T,605791,5023065,1677
+35,Palmer Seep,SAMN14814903,JM1731_Palmer_Seep,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1731_Palmer_Seep,7/27/17,MH,SP,10T,601333,5021068,1860
+35,Palmer Seep,SAMN14814904,JM1750_Palmer_Seep,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1750_Palmer_Seep,7/27/17,MH,SP,10T,601333,5021068,1860
+36,Paradise Park Spring,SAMN14814905,JM1711_Paradise_Park_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1711_Paradise_Park_Spring,7/29/17,MH,SP,10T,598825,5021679,1582
+36,Paradise Park Spring,SAMN14814906,JM1749_Paradise_Park_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1749_Paradise_Park_Spring,7/29/17,MH,SP,10T,598825,5021679,1582
+36,Paradise Park Spring,SAMN14814907,JM1778_Paradise_Park_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1778_Paradise_Park_Spring,7/29/17,MH,SP,10T,598825,5021679,1582
+37,Sand Canyon Spring,SAMN14814908,JM1735_Sand_Canyon_Trib,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1735_Sand_Canyon_Trib,7/27/17,MH,SP,10T,597584,5018995,1273
+38,Still Creek Spring,SAMN14814909,JM1767_Sandy_Creek_Trib,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1767_Sandy_Creek_Trib,7/27/17,MH,SP,10T,600085,5019146,1529
+39,West Fork Salmon Spring,SAMN14814910,JM178_W_Fork_Salmon_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM178_W_Fork_Salmon_Spring,7/27/17,MH,SP,10T,600445,5018976,1537
+40,Zigzag Spring,SAMN14814911,JM1727_Zigzag_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1727_Zigzag_Spring,7/29/17,MH,SP,10T,598783,5022136,1572
+60,JM-WS1,SAMN14814912,MtH20_D07_S280,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH20_D07_S280,9/15/19,MH,SP,10T,598828,5016602,1165
+61,JM-WS2,SAMN14814913,MtH9_C07_S316,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH9_C07_S316,9/15/19,MH,SP,10T,598790,5016670,1186
+62,JM-WS3,SAMN14814914,MtH17_D04_S272,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH17_D04_S272,9/16/19,MH,SP,10T,598846,5016543,1163
+63,JM-WS4,SAMN14814915,MtH27_E02_S294,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH27_E02_S294,9/16/19,MH,SP,10T,598912,5016653,1166
+64,JM-Meadows1,SAMN14814916,MtH25_D12_S290,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH25_D12_S290,9/16/19,MH,SP,10T,604122,5021144,1699
+65,Sherwood Camp Spring,SAMN14814917,MtH24_D11_S288,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH24_D11_S288,9/16/19,MH,SP,10T,611907,5027809,966
+66,The Real Buzzard Fountain,SAMN14814918,MtH26_E01_S292,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH26_E01_S292,9/17/19,MH,SP,10T,602518,5014500,1280
+77,Eliot091919A,SAMN14814919,MtH8_D06_S315,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH8_D06_S315,9/19/19,MH,ST,10T,604824,5027757,1878
+78,Eliot091919B,SAMN14814920,MtH10_C08_S258,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH10_C08_S258,9/19/19,MH,GM,10T,604650,5027553,1890
+79,Eliot091919C - Snow,SAMN14814921,MtH14_D01_S266,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH14_D01_S266,9/19/19,MH,SN,10T,604631,5027542,1895
+80,Eliot091919D,SAMN14814922,MtH15_D02_S268,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH15_D02_S268,9/19/19,MH,GM,10T,604712,5027537,1895
+81,Eliot091919E,SAMN14814923,MtH12_C11_S262,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH12_C11_S262,9/19/19,MH,GM,10T,604655,5027551,1895
+82,Eliot091919F,SAMN14814924,MtH6_C04_S310,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH6_C04_S310,9/19/19,MH,GM,10T,604571,5027644,1899
+83,Eliot091919G,SAMN14814925,MtH3_C01_S304,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH3_C01_S304,9/19/19,MH,GI,10T,604571,5027644,1899
+84,Tilly Jane Headwaters,SAMN14814926,MtH11_C10_S260,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH11_C10_S260,9/20/19,MH,SP,10T,604965,5027496,1926
+85,Eliot Spring,SAMN14814927,MtH7_C05_S312,16S rRNA sequencing of MH and GNP glacial microbial communities: MtH7_C05_S312,9/20/19,MH,SP,10T,604995,5027560,1921
+1,Avalanche Spring,SAMN14814928,JM1723_Avalanche_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1723_Avalanche_Spring,8/12/17,GNP,SP,12U,293116,5395310,1108
+3,Crack Spring,SAMN14814929,JM1730_Crack_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1730_Crack_Spring,8/8/17,GNP,SP,12U,300433,5405466,1844
+3,Crack Spring,SAMN14814930,JM1774_Crack_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1774_Crack_Spring,8/8/17,GNP,SP,12U,300433,5405466,1844
+4,Elizabeth Spring,SAMN14814931,JM1725_Elizabeth_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1725_Elizabeth_Spring,8/7/17,GNP,SP,12U,301796,5397959,2368
+4,Elizabeth Spring,SAMN14814932,JM1755_Elizabeth_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1755_Elizabeth_Spring,8/7/17,GNP,SP,12U,301796,5397959,2368
+4,Elizabeth Spring,SAMN14814933,JM1761_Elizabeth_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1761_Elizabeth_Spring,8/7/17,GNP,SP,12U,301796,5397959,2368
+5,Funky Spring,SAMN14814934,JM1736_Funky_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1736_Funky_Spring,8/9/17,GNP,SP,12U,299507,5401933,2152
+7,Grinnell Lake,SAMN14814935,JM1712_Grinnell_Lake,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1712_Grinnell_Lake,8/8/17,GNP,GL,12U,299699,5403591,1962
+7,Grinnell Lake,SAMN14814936,JM1742_Grinnell_Lake,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1742_Grinnell_Lake,8/8/17,GNP,GL,12U,299699,5403591,1962
+7,Grinnell Lake,SAMN14814937,JM1748_Grinnell_Lake,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1748_Grinnell_Lake,8/8/17,GNP,GL,12U,299699,5403591,1962
+9,Hello Bear Spring,SAMN14814938,JM1729_Hello_Bear,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1729_Hello_Bear,8/10/17,GNP,SP,12U,293656,5403651,1156
+9,Hello Bear Spring,SAMN14814939,JM1746_Hello_Bear,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1746_Hello_Bear,8/10/17,GNP,SP,12U,293656,5403651,1156
+10,Hidden Pass Seep 2,SAMN14814940,JM176_Hidden_Pass_Seep_2,16S rRNA sequencing of MH and GNP glacial microbial communities: JM176_Hidden_Pass_Seep_2,8/6/17,GNP,SP,12U,298599,5396389,2167
+12,Lunch Creek Spring,SAMN14814941,JM1714_Lunch_Creek,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1714_Lunch_Creek,8/12/17,GNP,SP,12U,300955,5397505,1934
+12,Lunch Creek Spring,SAMN14814942,JM1773_Lunch_Creek,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1773_Lunch_Creek,8/12/17,GNP,SP,12U,300955,5397505,1934
+13,McDonald Creek #1,SAMN14814943,JM1741_McDonald_Creek_1,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1741_McDonald_Creek_1,8/10/17,GNP,ST,12U,292317,5403936,1146
+15,Mineral Creek Tributary,SAMN14814944,JM1715_Mineral_Creek_Spring,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1715_Mineral_Creek_Spring,8/10/17,GNP,ST,12U,292331,5403915,1144
+15,Mineral Creek Tributary,SAMN14814945,JM1747_Mineral_Creek_Trib,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1747_Mineral_Creek_Trib,8/10/17,GNP,ST,12U,292331,5403915,1144
+16,Mountain Goat Spring,SAMN14814946,JM175_Mtn_Goat,16S rRNA sequencing of MH and GNP glacial microbial communities: JM175_Mtn_Goat,8/7/17,GNP,SP,12U,302002,5397695,2268
+16,Mountain Goat Spring,SAMN14814947,JM1762_Mtn_Goat,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1762_Mtn_Goat,8/7/17,GNP,SP,12U,302002,5397695,2268
+17,Packer's Roost Spring,SAMN14814948,JM1721_Packers_Roost,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1721_Packers_Roost,8/7/17,GNP,SP,12U,294663,5403355,1142
+18,Piegan North Spring,SAMN14814949,JM177_Piegan_North,16S rRNA sequencing of MH and GNP glacial microbial communities: JM177_Piegan_North,8/11/17,GNP,SP,12U,301839,5399456,2389
+18,Piegan North Spring,SAMN14814950,JM1782_Piegan_North,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1782_Piegan_North,8/11/17,GNP,SP,12U,301839,5399456,2389
+19,Reynolds 2 Spring,SAMN14814951,JM1754_Reynolds_2,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1754_Reynolds_2,8/6/17,GNP,SP,12U,298863,5395704,2183
+20,Rubideau Spring,SAMN14814952,JM1713_Rubideau,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1713_Rubideau,8/12/17,GNP,SP,11U,719779,5377206,1183
+22,Weeping Wall Spring,SAMN14814953,JM179_Weeping_Wall,16S rRNA sequencing of MH and GNP glacial microbial communities: JM179_Weeping_Wall,8/9/17,GNP,SP,12U,299301,5400839,1853
+22,Weeping Wall Spring,SAMN14814954,JM1757_Weeping_Wall,16S rRNA sequencing of MH and GNP glacial microbial communities: JM1757_Weeping_Wall,8/9/17,GNP,SP,12U,299301,5400839,1853

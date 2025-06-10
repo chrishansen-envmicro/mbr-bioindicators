@@ -1,0 +1,80 @@
+----------------------------------------------------------
+DATA-DICTIONARY INFORMATION FOR: SupplementaryTable3
+----------------------------------------------------------
+
+Spreadsheet SupplementaryTable3.csv:
+
+1. Description: Sampling site information for microbial data. This links the hydrological data and the microbial data.
+
+2. Number of rows: 89
+
+3. Number of columns: 12
+
+4. Variable List: 
+
+	 A. Name: Sample Number
+        Description: Sample number. This value is used throughout all tables in this bundled dataset.
+		Data type: number
+        Required: Yes
+
+	 B. Name: Site Name
+        Description: Name of the site sampled 
+		Data type: text
+        Required: Yes
+
+	 C. Name: NCBI Accession
+       Description: NCBI accession code
+		Data type: text
+	Required: Yes
+
+	 D. Name: NCBI Sample Name
+       Description: Name of the sample in the NCBI database
+		Data type: text
+	Required: Yes
+
+	 E. Name: NCBI Sample Title
+       Description: Extended title of the sample in the NCBI database
+		Data type: text
+	Required: Yes
+		
+	 F. Name: Date (mm/dd/yy)
+        Description: Date the site was sampled
+		Data type: date (mm/dd/yy)
+	Required: Yes
+
+	 G. Name: Site
+       Description: Site location. MH represents Mount Hood National Forest. GNP represents Glacier National Park.
+		Data type: text
+	Required: Yes
+
+	 H. Name: Sample Type
+        Description: Type of water collected. Sample types are abbreviated as follows: SP is spring, ST is stream, SE is seep, GI is glacial ice, GM is glacial melt, GL is proglacial lake, SN is snow, RN is rain, and SA is snow algae.  
+		Data type: text
+        Required: Yes
+
+	 I. Name: UTM Zone
+        Description: Zone in Universal Transverse Mercator (UTM)
+		Data type: text
+        Required: Yes
+		
+	 J. Name: UTM Easting (m)
+        Description: Easting coordinates in Universal Transverse Mercator
+		Data type: number
+		Measuring Unit: meters
+        Required: Yes
+
+	 K. Name: UTM Northing (m)
+        Description: Northing coordinates in Universal Transverse Mercator
+		Data type: number
+		Measuring Unit: meters
+        Required: Yes
+
+	 L. Name: Elevation m.a.s.l. (m)
+        Description: Elevation of the spring emergence
+		Data type: number
+		Measuring Unit: meters above mean sea level
+        Required: Yes
+
+----------------------------------------------------------
+End
+----------------------------------------------------------

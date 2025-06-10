@@ -1,0 +1,42 @@
+----------------------------------------------------------
+DATA-DICTIONARY INFORMATION FOR: SupplementaryTable5
+----------------------------------------------------------
+
+Spreadsheet SupplementaryTable5.csv:
+
+1. Description: Identifying unique taxa in the Recharge Top 50 OTU plots. This table is a compilation of the individual tables presented in each sub-figure of Supplementary Figure 6. The end members were categorized into either glacier or snow depending on the stable isotopes of the sample. It contains the taxa that are unique to either the glacier or snow recharge, meaning there is only one form of recharge (either glacier or snow) which contains that taxa. If the taxa appears in snow it is not in glacier - at least not within the top 50 OTUs. This table does not have a GNP section because glacier end member samples were not able to be sequenced due to low biomass or inability to physically collect the sample in the field. Therefore, no comparison could be done between the snow and glacier end members for GNP.
+
+2. Number of rows: 34
+
+3. Number of columns: 5
+
+4. Variable List:
+
+	 A. Name: Level and location
+        Description: Phylum, Class, Order, Family, Genus with location (MH or GNP)
+		Data type: text
+        Required: Yes
+
+	 B. Name: Springs/Streams Only
+       Description: Springs/Streams Only for Mount Hood National Forest
+		Data type: text
+	Required: Yes
+
+	 C. Name: Springs/Streams Only
+       Description: Springs/Streams Only for Glacier National Park 
+		Data type: text
+	Required: Yes
+
+	 D. Name: End Members Only
+       Description: End Members Only for Mount Hood National Forest
+		Data type: text
+	Required: Yes
+
+	 E. Name: End Members Only
+       Description: End Members Only for Glacier National Park
+		Data type: text
+	Required: Yes
+
+----------------------------------------------------------
+End
+----------------------------------------------------------

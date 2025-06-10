@@ -1,0 +1,84 @@
+----------------------------------------------------------
+DATA-DICTIONARY INFORMATION FOR: Supplementary Table2
+----------------------------------------------------------
+
+Spreadsheet: SupplementaryTable2.csv
+
+1. Description: Sampling site information and isotopic data.
+
+2. Number of rows: 133
+
+3. Number of columns: 12
+
+4. Variable List: 
+
+	 A. Name: Sample Number
+        Description: Sample number. This value is used throughout all tables in this bundled dataset.
+		Data type: number
+        Required: Yes
+
+	 B. Name: Site Name
+        Description: Name of the site sampled 
+		Data type: Text
+        Required: Yes
+		
+	 C. Name: Date (mm/dd/yy)
+        Description: Date the site was sampled
+		Data type: Date (mm/dd/yy)
+	Required: Yes
+
+	 D. Name: Site
+       Description: Site location. MH represents Mount Hood National Forest. GNP represents Glacier National Park.
+		Data type: text
+	Required: Yes
+
+	 E. Name: UTM Zone
+        Description: Zone in Universal Transverse Mercator (UTM)
+		Data type: text
+        Required: Yes
+		
+	 F. Name: UTM Easting (m)
+        Description: Easting coordinates in Universal Transverse Mercator
+		Data type: number
+		Measuring Unit: meters
+        Required: Yes
+
+	 G. Name: UTM Northing (m)
+        Description: Northing coordinates in Universal Transverse Mercator
+		Data type: number
+		Measuring Unit: meters
+        Required: Yes
+
+	 H. Name: Elevation (m)
+        Description: Elevation of the spring emergence
+		Data type: number
+		Measuring Unit: meters above mean sea level
+        Required: Yes
+
+	 I. Name: Sample Type
+        Description: Type of water collected. Sample types are abbreviated as follows: SP is spring, ST is stream, SE is seep, GI is glacial ice, GM is glacial melt, GL is proglacial lake, SN is snow, RN is rain, and SA is snow algae.  
+		Data type: text
+        Required: Yes
+
+	 J. Name: d2H (‰)
+        Description: delta hydrogen-2/hydrogen-1 ratio of water
+		Data type: number
+		Measuring Unit: per mil %, relative to Vienna Standard Mean Ocean Water (VSMOW)
+		Error: Standard deviation is 0.20 ‰
+        Required: Yes
+
+	 K. Name: d18O (‰)
+        Description: delta oxygen-18/oxygen-16 ratio of water
+		Data type: number
+		Measuring Unit: per mil ‰, relative to Vienna Standard Mean Ocean Water (VSMOW)
+		Error: Standard deviation is 0.20 ‰
+        Required: Yes
+
+	 L. Name: Bio Data
+        Description: Cell contains an X for sites that have microbial data collected at them
+		Data type: character - can be interpreted as logical as well
+		Measuring Unit: per mil ‰, relative to Vienna Standard Mean Ocean Water (VSMOW)
+        Required: Yes
+----------------------------------------------------------
+End
+----------------------------------------------------------

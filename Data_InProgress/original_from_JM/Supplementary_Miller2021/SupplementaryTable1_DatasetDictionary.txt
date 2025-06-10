@@ -1,0 +1,72 @@
+----------------------------------------------------------
+DATA-DICTIONARY INFORMATION FOR: SupplementaryTable1
+----------------------------------------------------------
+
+Spreadsheet SupplementaryTable1.csv:
+
+1. Description: Isotopic data used to create a local meteoric water line in GNP. Data presented was gathered from published USGS data on the NWIS website. Sites were selected based on proximity to GNP. Isotopic values can greatly change based on physical location, so it was important to only include sites which were located in GNP and in close proximity to the sampling sites used in this study (U.S. Geological Survey, 2016).
+
+2. Number of rows: 52
+
+3. Number of columns: 10
+
+4. Variable List: 
+
+	 A. Name: USGS Site No.
+        Description: USGS site identification code
+		Data type: number
+        Required: Yes
+
+	 B. Name: Site Name
+        Description: Name of the site sampled 
+		Data type: Text
+        Required: Yes
+		
+	 C. Name: Date
+        Description: Date the site was sampled
+		Data type: Date (mm/dd/yy)
+	Required: Yes
+
+	 D. Name: Precipitation Type
+       Description: Type of precipitation collected
+		Data type: text
+	Required: Yes
+
+	 E. Name: UTM Zone
+        Description: Zone in Universal Transverse Mercator (UTM)
+		Data type: text
+        Required: Yes
+		
+	 F. Name: UTM Easting (m)
+        Description: Easting coordinates in Universal Transverse Mercator
+		Data type: number
+		Measuring Unit: meters
+        Required: Yes
+
+	 G. Name: UTM Northing (m)
+        Description: Northing coordinates in Universal Transverse Mercator
+		Data type: number
+		Measuring Unit: meters
+        Required: Yes
+
+	 H. Name: Elevation (m)
+        Description: Elevation of the spring emergence
+		Data type: number
+		Measuring Unit: meters above mean sea level
+        Required: Yes
+
+	 I. Name: d2H (‰)
+        Description: delta hydrogen-2/hydrogen-1 ratio of water
+		Data type: number
+		Measuring Unit: per mil %, relative to Vienna Standard Mean Ocean Water (VSMOW)
+        Required: Yes
+
+	 J. Name: d18O (‰)
+        Description: delta oxygen-18/oxygen-16 ratio of water
+		Data type: number
+		Measuring Unit: per mil %, relative to Vienna Standard Mean Ocean Water (VSMOW)
+        Required: Yes
+
+----------------------------------------------------------
+End
+----------------------------------------------------------

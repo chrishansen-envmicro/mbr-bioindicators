@@ -1,0 +1,77 @@
+----------------------------------------------------------
+DATA-DICTIONARY INFORMATION FOR: SupplementaryTable4
+----------------------------------------------------------
+
+Spreadsheet SupplementaryTable4.csv:
+
+1. Description: Results of the Bayesian Monte Carlo Analysis. Results shown are the best posterior fractional contributions of glacial ice (fi best), snow (fs best), and rain (fr best) from the Bayesian Monte Carlo end-member mixing models.
+
+2. Number of rows: 133
+
+3. Number of columns: 12
+
+4. Variable List: 
+
+	 A. Name: Sample Number
+        Description: Sample number. This value is used throughout all tables in this bundled dataset.
+		Data type: number
+        Required: Yes
+
+	 B. Name: Site
+       Description: Site location. MH represents Mount Hood National Forest. GNP represents Glacier National Park.
+		Data type: text
+	Required: Yes
+
+	 C. Name: fi best
+       Description: Best posterior fractional contributions of glacial ice 
+		Data type: number
+	Required: Yes
+
+	 D. Name: mean fi
+       Description: The mean of the best posterior result for glacial ice
+		Data type: number
+	Required: Yes
+
+	 E. Name: stdev fi
+       Description: The standard deviation of the best posterior result for glacial ice
+		Data type: number
+	Required: Yes
+
+	 F. Name: fs best
+       Description: Best posterior fractional contributions of snow 
+		Data type: number
+	Required: Yes
+
+	 G. Name: mean fs
+       Description: The mean of the best posterior result for snow
+		Data type: number
+	Required: Yes
+
+	 H. Name: stdev fs
+       Description: The standard deviation of the best posterior result for snow
+		Data type: number
+	Required: Yes
+
+	 I. Name: fr best
+       Description: Best posterior fractional contributions of rain 
+		Data type: number
+	Required: Yes
+
+	 J. Name: mean fr
+       Description: The mean of the best posterior result for rain
+		Data type: number
+	Required: Yes
+
+	 K. Name: stdev fr
+       Description: The standard deviation of the best posterior result for rain
+		Data type: number
+	Required: Yes		
+
+	 L. Name: fi > 0.60
+       Description: Samples with greater than 60% glacier ice (fi > 0.60) are designated with an "X"
+		Data type: text
+	Required: Yes
+
+----------------------------------------------------------
+End
+----------------------------------------------------------

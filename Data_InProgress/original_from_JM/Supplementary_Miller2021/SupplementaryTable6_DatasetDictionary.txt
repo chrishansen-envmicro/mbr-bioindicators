@@ -1,0 +1,42 @@
+----------------------------------------------------------
+DATA-DICTIONARY INFORMATION FOR: SupplementaryTable6
+----------------------------------------------------------
+
+Spreadsheet SupplementaryTable6.csv:
+
+1. Description: Identifying unique taxa in the recharge barplots. This table corresponds with Supplementary Figs. 9 and 10. The glacier recharged taxa listed are taxa unique to the glacier recharged samples. The asterisk ("*") in the cell denotes specific taxa that are unique to an end member and also a spring/stream that was sampled. For example, a glacier categorized spring may have a unique taxa connecting it to a glacier end member.
+
+2. Number of rows: 90
+
+3. Number of columns: 5
+
+4. Variable List:
+
+	 A. Name: Level and location
+        Description: Phylum, Class, Order, Family, Genus with location (MH or GNP)
+		Data type: text
+        Required: Yes
+
+	 B. Name: Springs/Streams Only, Glacial Recharge
+       Description: Springs/Streams Only for Mount Hood National Forest
+		Data type: text
+	Required: Yes
+
+	 C. Name: Springs/Streams Only, Glacial Recharge
+       Description: Springs/Streams Only for Glacier National Park 
+		Data type: text
+	Required: Yes
+
+	 D. Name: End Members Only, Glacial Recharge
+       Description: End Members Only for Mount Hood National Forest
+		Data type: text
+	Required: Yes
+
+	 E. Name: End Members Only, Glacial Recharge
+       Description: End Members Only for Glacier National Park
+		Data type: text
+	Required: Yes
+
+----------------------------------------------------------
+End
+----------------------------------------------------------

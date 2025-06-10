@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;\red22\green21\blue22;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c11373\c10980\c11373;\cssrgb\c100000\c100000\c100000;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+DATA-DICTIONARY INFORMATION FOR: Supplementary Table 3\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Spreadsheet: Supplementary_TableS3.csv\
+Data Created: 20250607 by Christopher L. Hansen\
+\
+1. Description: \expnd0\expndtw0\kerning0
+Results of triplicate RandomForest modeling and regression analysis applied to evaluate how eukaryotic (18S rRNA) community composition covaried with 18 environmental metrics (see 
+\f1\i 2.3. Methods
+\f0\i0 ) (Sperlea et al., 2021). Each model was trained using Hellinger-transformed amplicon abundances and tested using 10-fold cross-validation. Reported metrics include the coefficient of determination (Rsquared), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE) for each replicate model run. A warning notice in R indicated whether any cross-validation fold was trained using \uc0\u8804  5 unique values. The presents of notes indicate deviation from standard pipeline due to data limitations. \kerning1\expnd0\expndtw0 \
+\
+2. Number of rows: 109\
+\
+3. Number of columns: 9\
+\
+4. Variable List: \
+\
+  A. Name: Location\
+	Description: Site location. MH represents Mount Hood National Forest. GNP represents Glacier National Park\
+       	Data type: text\
+       	Source: Miller et al. (2021), published\
+\
+  B. Name: Env_Variable_TableS1\
+       	Description: Environmental variable name as listed in Supplementary Table S1\
+       	Data type: text\
+	Source: Miller et al. (2021), published\
+\
+\
+  C. Name: Env_Variable\
+       	Description: Alternative variable name referenced in Figure 5\
+       	Data type: text\
+\
+  D. Name: Rep\
+       	Description: Replicate number (1\'963) of the model run\
+	Data type: number  \
+\
+  E. Name: Rsquared\
+       	Description: Coefficient of determination (Rsquared), a metric quantifying covariation between predicted and observed environmental measurements\
+	Data type: number\
+	Range: 0-1  \
+\
+  F. Name: RSME\
+       	Description: Root Mean Squared Error\
+       	Data type: number\
+\
+  G. Name: MAE\
+       	Description: Mean Absolute Error\
+       	Data type: number\
+\
+  H. Name: Warnings_Present\
+       	Description: Flag indicating if any fold in the 10-fold cross-validation was trained using \uc0\u8804  5 unique values. Warning note: \'93\cf2 \cb3 \expnd0\expndtw0\kerning0
+In randomForest.default(x, y, mtry = param$mtry, ...): The response has five or fewer unique values.\'a0 Are you sure you want to do regression?\'94\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+	Data type: number\
+\
+  I. Note_Present\
+	Description: Note indicating a deviation in model run parameters. Note text: \'93\cf2 \cb3 \expnd0\expndtw0\kerning0
+note: only [1-2] unique complexity parameters in default grid. Truncating the grid to 1 . (Fold #\'92s)\'94\cf0 \cb1 \kerning1\expnd0\expndtw0 \
+	Data type: number\
+\
+\
+----------------------------------------------------------\
+End\
+----------------------------------------------------------}
